@@ -1,0 +1,22 @@
+# ----- uv -----
+.venv/
+uv.lock
+.uv/
+
+# Si tu utilises un environnement global géré par uv
+# (.python-version est aussi utilisé par pyenv)
+.python-version
+
+# ----- Python général -----
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+
+# ----- Logs et caches -----
+*.log
+*.cache/
+.cache/
+.pytest_cache/
